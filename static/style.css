@@ -1,0 +1,88 @@
+body{
+    background: -webkit-linear-gradient(left, #bf567d, #d98baf );
+}
+/* 
+Mulberry: #bf567d
+Can Can: #d98baf 
+Judy's Pink: #d9a3bc
+Deep Blush: #df7da6
+Charm: #d97791
+Lotus: #733d3d
+Bloom: #d9b0c3
+Maverick: #d9c5ce
+Vanilla Ice: #f2d8d8
+
+Universe: #7096d1
+Planetary: #334eac
+Sky: #d0e3ff
+
+Mint: #3EB489
+*/
+.isi-form{
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+.isi-form .form-control{
+    border-radius:1rem;
+}
+.logo-image{
+    text-align: center;
+}
+.logo-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    /* transform: rotate(29deg); */
+}
+.isi-form form{
+    padding: 14%;
+}
+.isi-form form .row{
+    margin-bottom: -7%;
+}
+.isi-form .prediksiKankerPayudara{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #334eac;
+}
+.hasilPrediksi{
+    margin-bottom: 1%;
+    margin-top: -10%;
+    text-align: center;
+    color: #334eac;
+}
+/* .contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+} */
+.btnSubmit
+{
+    /* width: 50%;
+    padding: 1.5%; */
+    margin-bottom: 8%;
+    margin-top: 2%;
+    border-radius: 1rem;
+    color: #fff;
+    background-color: #d97791;
+    border: none;
+    cursor: pointer;
+}
+#result{
+    padding: 10px;
+    margin-top: 20px;
+    max-width: 300px;
+    width: 100%;
+    background-color: #f2d8d8;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 5px;
+}

@@ -1,0 +1,38 @@
+SEBELUM BISA DI AKSES SECARA UMUM
+
+A. Yang Harus Sudah Dimiliki Sebelum Menjalankan:
+	1. Text Editor (Visual Studio Code)
+	2. Paket Git (Git GUI, Git Bash)
+
+B. Extension yang Perlu di Install di Visual Studio Code:
+	1. Python (Microsoft)
+	2. Jupyter
+	3. HTML
+	4. CSS
+	5. JavaScript
+
+C.Yang Perlu di Install di Luar Visual Studio Code dan Terminal:
+	1. Python.exe (diperlukan untuk membuat virtual environment)
+	2. Nginx (opsional)
+	3. Gunicorn (tidak bisa di run kalau tidak pakai ini (kalau tidak salah ingat yaa..))
+
+D. Yang di Jalankan di Git Bash:
+	1. python -m venv envirv
+	2. (lihat pada nomor E. sebelum melanjutkan ke nomor 3.)
+	3. /envirv/Scripts/activate (untuk membuat virtual environment)
+
+E. Yang Perlu di Install Setelah Python Berhasil di Install dan di Jalankan di Git Bash atau Terminal di Visual Studio Code:
+	1. pip install flask
+	2. pip install waitress (opsional)
+	3. python -m waitress --host=127.0.0.1 --port=8000 app:app (opsional; jika menginstall waitress ini dipakai)
+	4. pip install seaborn
+	5. pip install matplotlib
+	6. pip install pandas
+	7. pip install numpy
+	8. Pip install scikit-learn
+	9. Pip install pickle4 (sertakan versinya)
+
+F. Untuk Menjalankan Program di Browser (Jalankan di Terminal Bash dalam Visual Studio Code):
+	1. /envirv/Scripts/activate (selalu jalankan kembali perintah ini setiap akan menjalankan pertama kali masuk text editor)
+	2. python app.py (selalu jalankan perintah ini ketika akan menjalankan hasil program di browser)
+	3. http://127.0.0.1:5000 (jalankan hasil program melalui link ini)
